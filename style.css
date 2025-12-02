@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding:10px ;
+    box-sizing: border-box;
+}
+
+.home{
+    border: 10px;
+    border-radius: 5px;
+    display: grid;
+    width: 500px;
+    height: 700px;
+    border: radius 10px; 
+    background-color: white;
+    /* align-items: baseline; */
+    align-content: baseline;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    box-shadow: 3px 3px 5px 3px;
+    
+    
+}
+
+.home input{
+    font-family: Lato, sans-serif;
+}
+
+.mae{
+    text-decoration: none;
+    font-size: bold;
+}
+
+.mas{
+    text-decoration: none;
+    color: white;
+    font-size: bold;
+}
+
+nav{
+    /* border: 10px; */
+    display: flex;
+    background-color: blue;
+    justify-content:space-between;
+    align-items: center;
+    color: white;
+    font-size: medium;
+    font-family:Lato, sans-serif;
+}
+
+.log{
+    display: flex;
+}
+
+.d2{
+    margin-left: 200px;
+    padding-top: 50px;
+    font-family: 
+    Lato, sans-serif;
+    font-size:14px;
+}
+
+.dev .d2{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+    padding: 20px;;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: 100px;
+    image-orientation: flip;
+    grid-column: auto;
+    width: 1000px;
+    background-color:wheat;
+}
+    
+.wel{
+    margin-left: 200px;
+    padding-top: 50px;
+    font-family: 
+    Lato, sans-serif;
+    font-size:14px;
+}
+
+.con{
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ifr;
+    gap: 100px;
+    border: 20px;
+    border-radius: 5px;
+    color:black;
+    padding: 10px;
+    /* height: 60px;
+    width: 700px; */
+}
+
+.container{
+    border: 10px;
+    border-radius: 5px;
+    display: grid;
+    /* width: 100px;
+    height: 20px; */
+    border: radius 10px; 
+    background-color: white;
+    /* align-items: baseline; */
+    align-content: baseline;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    box-shadow: 3px 3px 3px 3px;
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+/* Flexbox example */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex: 1 1 200px;
+}
+
+/* CSS Grid example */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+body.container{
+    display: flex;
+    justify-content:baseline;
+    align-items: center;
+    height: fit-content;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body class="background-color:dark blue;">
+    <div class="container-fluid col-lg- col-md-4 col-6 rounded-3 mx-auto mt-lg-5 mt-md-8 mt-3 p-lg-4 p-3 shadow ">
+    <!-- <img src="/img/g.png" alt="" width="500px"> -->
+    <h2 class="text-center">CREATE NEW ACCOUNT</h2>
+     <br>
+        <p id="showError" style="display: none" class="alert alert-danger p-2 text-center text-danger"> Please fill in all inputs!</p>
+        <p id="showError2" style="display: none" class="alert alert-danger p-2 text-center text-danger"> Invalid email entered!</p>
+        <input type="text" class="form-control shadow-none my-3" id="fullName" placeholder="Full Name">
+        <input type="text" class="form-control shadow-none my-3" id="userName" placeholder="UserName">
+        <input type="text" class="form-control shadow-none my-3" id="email" placeholder="Email">
+        <input type="password" class="form-control shadow-none my-3" id="password" placeholder="Password">
+        <button onclick="signup()" class="btn btn-dark my-3 w-100">Submit</button>
+        <button class="btn btn-warning"(next pg)>  <a href="../index.html">Sign In</a></button><br><br>
+        <p">Have an account already... sign in<a href="../signin/signin.html">here</div>
+    </div>
+         
+    
+</body>
+<script src="signup.js"></script>
+</html>
